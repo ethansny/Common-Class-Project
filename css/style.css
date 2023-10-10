@@ -1,0 +1,51 @@
+.skip{
+    position: fixed;
+    left: -40px;
+    top: -40px;
+
+}
+
+h1{font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2{font-size: 45px;
+    font-family: cursive;
+    color: rgb(0, 78, 167);
+}
+
+p{line-height: 25px;
+
+}
+
+img{
+    padding: 10px;
+    border: 5px solid rgb(0, 0, 0);
+    margin: 20px;
+    border-top-right-radius: 30px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+ul li{
+    font-size: 130%;
+    background-color: rgb(235, 195, 195);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 5%;
+    gap: 5px
+
+}
+.bacon{
+    padding-left: 5%;
+}
