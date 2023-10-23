@@ -1,51 +1,103 @@
-.skip{
-    position: fixed;
-    left: -40px;
+.skip {
+    position: absolute;
     top: -40px;
-
+    left: 0;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    z-index: 100;
+    transition: top 1s;
 }
 
-h1{font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+.skip :focus{
+    top: 0px;
+}
+
+body p{
+    font-size: 150%;
+}
+
+.bacon img, .bacon video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
     text-align: center;
 }
 
-h2{font-size: 45px;
-    font-family: cursive;
-    color: rgb(0, 78, 167);
+h2 {
+    font-size: 45px;
+    text-align: center;
+    background-color: rgb(104, 176, 135);
+    margin: 10px;
+    border-radius: 10px;
 }
 
-p{line-height: 25px;
-
+p {
+    line-height: 25px;
+    padding-left: 5%;
 }
 
-img{
+.intro{
+    text-align: center;
+}
+
+img {
     padding: 10px;
     border: 5px solid rgb(0, 0, 0);
     margin: 20px;
     border-top-right-radius: 30px;
 }
 
-ul{
+ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-ul li{
+ul li {
     font-size: 130%;
     background-color: rgb(235, 195, 195);
     border-radius: 5px;
     padding: 5px;
 }
 
-.container{
+.container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-left: 5%;
     gap: 5px
-
 }
-.bacon{
+
+.bacon video {
+ padding-left: 5%;
+}
+
+.pets img {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pets p {
     padding-left: 5%;
+    padding-right: 5%;
+}
+
+ol {
+    margin-left: 5%;
+}
+
+h3 {
+    padding-left: 3%;
+    font-size: 30px;
+    background-color: rgb(104, 176, 135);
+    margin: 10px;
+    border-radius: 10px;
+    margin-right: 20%;
 }
